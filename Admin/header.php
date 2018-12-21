@@ -82,7 +82,7 @@ require("../classes/Category.php");
             <i class="fas fa-user-circle fa-fw"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="logout.php">Log Out</a>
+            <a class="dropdown-item" href="../logout.php">Log Out</a>
           </div>
         </li>
       </ul>

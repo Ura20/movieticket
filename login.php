@@ -1,8 +1,9 @@
 <?php
   require("classes/User.php");
-$cid = $_GET['cinemas'];
+
 session_start();
 if(!empty($_SESSION['userid'])){
+  $cid = $_GET['cinemas'];
   header('location: Web/reserve1.php?cid='.$cid);
 }
 
